@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@wloorec</title>
+    <title>About Me</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
@@ -58,42 +58,17 @@
             margin-top: 2rem;
             margin-bottom: 2rem;
         }
-        .content {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-        .content p {
-            margin: 0.5rem 0;
-            font-size: 1.2rem;
-            line-height: 1.8;
-        }
-        .challenge-results {
-            margin-top: 2rem;
-            text-align: left;
-            line-height: 1.8;
-        }
-        .challenge-results h2 {
-            font-family: 'Press Start 2P', cursive;
-            color: #EE2A7B;
-            font-size: 1.5rem;
+        .collage {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
             margin-top: 2rem;
         }
-        .images {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 1.5rem;
-            margin-top: 2rem;
-        }
-        .images img {
-            max-width: 100%;
+        .collage img {
+            width: 100%;
             height: auto;
-            padding: 10px;
-        }
-        .images video {
-            max-width: 100%;
-            height: auto;
-            padding: 10px;
+            border-radius: 10px;
+            object-fit: cover;
         }
         footer {
             background-color: #1F1F1F;
@@ -124,35 +99,14 @@
         </nav>
     </header>
     <div class="container">
-        <h1>@wloorec</h1>
-        <div class="content">
-            <p><strong>Type of work:</strong> Social Media, Photography, Editing, Content Creation</p>
-            <p><strong>Date:</strong> May 2024 - Present</p>
-            <p><strong>Location:</strong> Waterloo, ON</p>
-        </div>
-        <div class="challenge-results">
-            <h2>Challenge</h2>
-            <p>
-                The @wloorec Instagram account maintained a consistent posting schedule and had plenty to promote, yet struggled with engagement. The posts relied heavily on repetitive templates, styles, and graphics, resulting in a lack of visual diversity and limiting the account’s growth potential.
-            </p>
-            <h2>Results</h2>
-            <p>
-                I introduced weekly posts aligned with current social media trends, shifting the focus from strictly informative content to engaging, relatable videos. The University of Waterloo is already a well-known and respected brand, so by expanding beyond their professional feel, we are able to connect with more of their target audience. This approach broadened the account’s reach, creating content that’s more interactive, shareable, and appealing to a wider audience. One of the reels reached 2.2 million likes, increased our interaction by 1289%, and has been shared 137k times, demonstrating the effectiveness of this strategy.
-            </p>
-        </div>
-        <div class="images">
-            <video controls>
-                <source src="2402c128e16c481386767f8e88744d35.mov" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-            <img src="449235310_1034425178245880_2953321436185199211_n (1).jpg" alt="Social Media Post">
-            <img src="9D098032-C96E-41EC-BA03-B628EB5C1763 (1).jpg" alt="Promotional Photo">
-            <img src="@wloorec (1).png" alt="Instagram Screenshot">
-            <img src="Untitled_Artwork 4 (1).jpg" alt="Creative Artwork">
-            <video controls>
-                <source src="b382daf25cdb4fbc99d97c469b8361b2.mov" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
+        <h1>Me in Photos</h1>
+        <div class="collage">
+            <img src="DSCF2951.JPG" alt="Spare Time Activity">
+            <img src="DSCF3213.JPG" alt="Spare Time Activity">
+            <img src="DSCF3423.JPG" alt="Spare Time Activity">
+            <img src="DSCF3571.JPG" alt="Spare Time Activity">
+            <img src="IMG_9857.jpg" alt="Spare Time Activity">
+            <img src="IMG_9894.JPG" alt="Spare Time Activity">
         </div>
     </div>
     <footer>
