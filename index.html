@@ -31,9 +31,18 @@
         .nav-bar {
             list-style: none;
             display: flex;
-            align-items: center;
             margin: 0;
             padding: 0;
+            width: 100%;
+        }
+        .nav-bar-left {
+            display: flex;
+            align-items: center;
+        }
+        .nav-bar-right {
+            display: flex;
+            align-items: center;
+            margin-left: auto;
         }
         .nav-bar li {
             margin: 0 20px;
@@ -108,14 +117,17 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="nav-bar">
-                <li class="home-link"><a href="#"><img src="mlogoclr.png" alt="Home Logo"></a></li>
-                <li><a href="#wloowvb">wloowvb</a></li>
-                <li><a href="#wloorec">wloorec</a></li>
-                <li><a href="#more-about-me">more about me!</a></li>
-                <li><a href="#contact-info">contact info</a></li>
-            </ul>
+        <nav class="nav-bar">
+            <div class="nav-bar-left">
+                <li class="home-link"><a href="https://k3nzie8818.github.io/kenzie-home/"><img src="mlogoclr.png" alt="Home Logo"></a></li>
+                <li><a href="https://k3nzie8818.github.io/kenzie-wloowvb/">wloowvb</a></li>
+                <li><a href="https://k3nzie8818.github.io/kenzie-wloorec/">wloorec</a></li>
+                <li><a href="https://k3nzie8818.github.io/kenzie-more-about-me/">more about me!</a></li>
+            </div>
+            <div class="nav-bar-right">
+                <li><a href="mackenzieleu@gmail.com">email</a></li>
+                <li><a href="www.linkedin.com/in/mackenzie-leu" >LinkedIn</a></li>
+            </div>
         </nav>
     </header>
     <div class="container">
@@ -155,7 +167,7 @@
     <footer>
         <p>Feel free to reach out and work with me!</p>
         <p>
-            <a href="https://linkedin.com" target="_blank">LinkedIn |</a> 
+            <a href="www.linkedin.com/in/mackenzie-leu" target="_blank">LinkedIn |</a> 
             <a href="#wloowvb">wloowvb | </a> 
             <a href="#wloorec">wloorec</a>
         </p>
