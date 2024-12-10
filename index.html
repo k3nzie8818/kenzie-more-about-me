@@ -58,17 +58,41 @@
             margin-top: 2rem;
             margin-bottom: 2rem;
         }
+        h2 {
+            font-family: 'Press Start 2P', cursive;
+            color: #EE2A7B;
+            text-align: center;
+            font-size: 2rem;
+            margin-top: 3rem;
+        }
         .collage {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             gap: 10px;
+            justify-content: center;
             margin-top: 2rem;
         }
         .collage img {
             width: 100%;
-            height: auto;
+            height: 200px;
             border-radius: 10px;
             object-fit: cover;
+        }
+        @media (min-width: 1024px) {
+            .collage img:last-child {
+                grid-column: span 2;
+                justify-self: center;
+            }
+        }
+        .me-in-words {
+            margin-top: 2rem;
+            text-align: center;
+        }
+        .me-in-words p {
+            margin: 1rem auto;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            max-width: 800px;
         }
         footer {
             background-color: #1F1F1F;
@@ -101,19 +125,42 @@
     <div class="container">
         <h1>Me in Photos</h1>
         <div class="collage">
+            <img src="IMG_3613.jpg" alt="Spare Time Activity">
+            <img src="DSCF1332.JPG" alt="Spare Time Activity">
+            <img src="IMG_7538.jpg" alt="Spare Time Activity">
             <img src="DSCF2951.JPG" alt="Spare Time Activity">
-            <img src="DSCF3213.JPG" alt="Spare Time Activity">
+            <img src="IMG_6270.jpg" alt="Spare Time Activity">
             <img src="DSCF3423.JPG" alt="Spare Time Activity">
+            <img src="DSCF3434 (1).JPG" alt="Spare Time Activity">
+            <img src="DSCF3443.JPG" alt="Spare Time Activity">
             <img src="DSCF3571.JPG" alt="Spare Time Activity">
             <img src="IMG_9857.jpg" alt="Spare Time Activity">
+            <img src="DSCF3213.JPG" alt="Spare Time Activity">
             <img src="IMG_9894.JPG" alt="Spare Time Activity">
+          <img src="IMG_5848.JPG" alt="Spare Time Activity">
+          
+        </div>
+      <br> 
+      <br>
+      <br> 
+      <br>
+        <h2>Me in Words</h2>
+        <div class="me-in-words">
+            <p>Growing up as an Asian-Canadian, I was instilled with many important values from a young age. A drive for success, balance, and passion were always emphasized as essential traits to cultivate, shaping who I am today. </p>
+              <br>
+          <p> My drive for success stems from my competitive nature in sports, where I constantly push myself to achieve my goals, as well as my academic and professional aspirations as a designer. Whether it's working towards honing my craft or excelling in school, I have been and always will be deeply committed to my ambitions and dreams.
+          </p>
+          <br>
+          <p> Balance has also always been a central theme in my life. Being immersed in both Asian and Western cultures has taught me the importance of equilibrium in all aspects of life. It’s about working hard in your career while maintaining meaningful connections with family and friends, and always carving out time for yourself. For me, balance also means continuously developing my current skills while exploring new ones. </p>
+          <br>
+          <p> Passion is another value I’ve learned to embrace fully. There’s this common stereotype that every Asian parent wants their child to become a doctor, and while that may hold some truth, my parents (at least mine) always encouraged me to follow my passions and do what I love. That encouragement has shaped how I live my life. I am passionate about connecting with people, which I express through photographing memories and sharing them on my (excessively organized) Instagram and Linktree. I am passionate about exploring new places, making an effort to travel whenever I can. And above all, I am passionate about making the most of every opportunity life gives me. Whether it’s through capturing moments, seeking new experiences, or pursuing my goals, I strive to live with purpose and authenticity.</p>
         </div>
     </div>
     <footer>
         <p>Feel free to reach out and work with me!</p>
         <p>
-            <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
-            <a href="#wloowvb">wloowvb</a> |
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a> 
+            <a href="#wloowvb">wloowvb</a> 
             <a href="#wloorec">wloorec</a>
         </p>
     </footer>
